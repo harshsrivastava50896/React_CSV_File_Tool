@@ -1,0 +1,62 @@
+body {
+  margin-top: 50px;
+}
+.import {
+  text-align: center;
+  margin-right: 2em;
+  margin-top: 1em;
+  border: 1px solid black;
+  width: 12em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  right: 5%;
+  position: absolute;
+  top: 13%;
+  border-radius: 5px;
+}
+.csv-input {
+  color: #0a07e1 !important;
+  margin: 5px;
+  outline: none;
+  width: 181px;
+}
+#resp-table {
+  width: 50%;
+  display: table;
+  margin: 0 auto;
+}
+
+#resp-table-caption {
+  display: table-caption;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+#resp-table-header {
+  display: table-header-group;
+  background-color: #e8e8e8;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.table-header-cell {
+  display: table-cell;
+  padding: 10px;
+  text-align: justify;
+}
+
+#resp-table-body {
+  display: table-row-group;
+}
+.resp-table-row {
+  display: table-row;
+}
+.table-body-cell {
+  display: table-cell;
+  border-bottom: 1px solid #c5c5c5;
+  padding: 25px;
+  font-size: 18px;
+}
